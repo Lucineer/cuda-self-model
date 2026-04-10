@@ -1,0 +1,8 @@
+[package]
+name = "cuda-self-model"
+version = "0.1.0"
+edition = "2021"
+description = "Agent self-model — the agent's understanding of its own capabilities, limitations, state, and growth trajectory"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
