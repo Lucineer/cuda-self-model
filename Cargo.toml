@@ -2,7 +2,12 @@
 name = "cuda-self-model"
 version = "0.1.0"
 edition = "2021"
-description = "Agent self-model — the agent's understanding of its own capabilities, limitations, state, and growth trajectory"
+description = "Self-awareness — capability calibration, growth tracking"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-self-model"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
